@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void ShowText(View view) {
-        String msg ="Hello Toast!";
+        String msg ="ไม่สามารถดูข้อมูลได้!";
         Toast toast =Toast.makeText(this, msg, Toast.LENGTH_SHORT);
         toast.show();
     }
